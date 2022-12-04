@@ -1,21 +1,26 @@
-function Header(){
-    return (
-        <div className="">
-<h1>hi am Armel</h1>
-        </div>
-    )
-}
-function NavBar(){
-    return (
-        <div>
-     <h2>thi is header</h2>
-        </div>
-    )
-}
+const body=(
+    <div>
+    <header>
+        <div className="react-logo">
+<img src="data:image/png;base64,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" alt="react logo" />
+<h1>ReactFacts</h1>
+</div>
+<div>
+    <h3>React COurse-Project1</h3>
+</div>
+</header>
+<h1>Fun facts about React</h1>
+<div className="body">
+    <ul>was first realsed in 2013</ul>
+    <ul>was originally created by jordan walke</ul>
+    <ul>has well over 100k stars on github</ul>
+    <ul>is mantained by facebook</ul>
+    <ul>powers thousands of apps,including mobile apps</ul>
+</div>
+</div>
+
+)
 
 ReactDOM.render(
-<div>
-<NavBar/>
-<Header />
-</div>,
+body,
 document.getElementById("root"))
