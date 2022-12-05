@@ -9,8 +9,7 @@
     display: flex;
     align-items: center;
     justify-self: space-between;
-    padding:20px
-    
+    padding:20px;
 }
 img{
     width:80px;
@@ -31,7 +30,8 @@ img{
     height: 550px;
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform:translate(-50%);
+  
 }
 .fun{
     color:#FFFFFF;
@@ -54,4 +54,5 @@ content: "\2022";
   font-weight: bold; 
   padding: 9px;
   display: inline-block;
+  font-size: 1.3em;
 }
